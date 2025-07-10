@@ -1,0 +1,48 @@
+# Django project files
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Static and media files
+/static/files/
+/media/
+/staticfiles/
+
+
+# Virtual environment
+venv/
+myenv/
+env/
+.env
+
+# Local development settings
+local_settings.py
+
+# Editor-specific files
+.vscode/
+*.swp
+*~
+
+# Dependency files
+node_modules/
+pip-wheel-metadata/
+*.egg-info/
+
+# Log files
+*.log
+
+# Ignore migrations folder in all apps except __init__.py
+*/migrations/*
+!*/migrations/__init__.py
+./env.py
+
+./.env.local
+alembic/env.py
+.pyc
+__pycache__
+.myenv
+# Ignore all migrations except __init__.py
+../myenv
