@@ -17,14 +17,14 @@ A Django REST API for project management with user authentication, project manag
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/nadeem833/project_management_tool-.git
 cd project_management_api
 ```
 
 2. Create virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+python -m venv myenv
+ myenv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -35,6 +35,7 @@ pip install -r requirements.txt
 4. Configure settings:
 ```bash
 # Update settings.py with your database configuration
+currently use default sqlite3 DB
 ```
 
 5. Run migrations:
@@ -97,7 +98,7 @@ python manage.py runserver
 
 The API uses JWT token authentication. Include the token in the Authorization header:
 ```
-Authorization: Bearer <your-token>
+Authorization: Bearer <jwt-token>
 ```
 
 ## Database Schema
